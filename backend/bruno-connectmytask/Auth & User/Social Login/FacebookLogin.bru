@@ -1,0 +1,66 @@
+meta {
+  name: Facebook Login
+  type: http
+  seq: 12
+}
+
+post {
+  url: {{baseurl}}/api/auth/facebook
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "accessToken": "{{facebookAccessToken}}",
+    "fcmToken": "test-fcm-token-facebook-login"
+  }
+}
+
+script:post-response {
+  // Save auth token for subsequent requests
+  if (res.getStatus() === 200) {
+    const responseBody = res.getBody();
+    bru.setVar("authToken", responseBody.token);
+    bru.setVar("userId", responseBody.user.id);
+    bru.setVar("userEmail", responseBody.user.email);
+    console.log("✅ Facebook login successful!");
+    console.log("User:", responseBody.user.name, "(" + responseBody.user.email + ")");
+  } else if (res.getStatus() === 403) {
+    console.log("❌ User not registered. Please register first with Facebook Register test.");
+  } else {
+    console.log("❌ Facebook login failed:", res.getBody());
+  }
+}
+
+tests {
+  test("should return valid status", function() {
+    const status = res.getStatus();
+    expect([200, 403]).to.include(status);
+  });
+  
+  test("should return user data for existing user", function() {
+    if (res.getStatus() === 200) {
+      const body = res.getBody();
+      expect(body).to.have.property('token');
+      expect(body).to.have.property('user');
+      expect(body.user).to.have.property('email');
+      expect(body.user).to.have.property('name');
+    }
+  });
+  
+  test("should return error for non-registered user", function() {
+    if (res.getStatus() === 403) {
+      const body = res.getBody();
+      expect(body).to.have.property('error', 'User not registered');
+    }
+  });
+}
+
+settings {
+  encodeUrl: true
+}

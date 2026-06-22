@@ -1,0 +1,51 @@
+meta {
+  name: Get Profile
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseurl}}/api/auth/profile/{{userId}}
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: {{authToken}}
+  Content-Type: application/json
+}
+
+script:pre-request {
+  // Check if we have the required variables
+  if (!bru.getVar("authToken")) {
+    throw new Error("No auth token found. Please run Login request first.");
+  }
+  if (!bru.getVar("userId")) {
+    throw new Error("No userId found. Please run Login request first.");
+  }
+}
+
+tests {
+  test("should return 200 status", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("should return user profile data", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('_id');
+    expect(body).to.have.property('name');
+    expect(body).to.have.property('email');
+    expect(body).to.have.property('role');
+    expect(body).to.not.have.property('password'); // Should not return password
+  });
+  
+  test("should return expected user data", function() {
+    const body = res.getBody();
+    expect(body.email).to.equal('folk@example.com');
+    expect(body.name).to.equal('Folk');
+  });
+}
+
+settings {
+  encodeUrl: true
+}

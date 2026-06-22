@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+.git
+.github
+.env
+.env.*
+coverage
+__tests__
+bruno-connectmytask
+config/serviceAccountKey.json

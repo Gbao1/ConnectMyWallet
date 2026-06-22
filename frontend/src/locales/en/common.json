@@ -1,0 +1,2650 @@
+{
+  "appName": "ConnectMyTask",
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "bangla": "Bangla",
+    "hindi": "Hindi",
+    "urdu": "Urdu"
+  },
+  "home": {
+    "heroTagline": "Get work done the easy way",
+    "heroTitle": "Get tasks done by trusted providers.",
+    "heroSubtitle": "Post any task you need done, from home repairs to digital freelance work, and receive competitive bids in minutes.",
+    "heroPrimaryCta": "Post a task for free",
+    "heroSecondaryCta": "Browse providers",
+    "heroBadges": [
+      "Verified Pros",
+      "Secure Payment",
+      "Satisfaction Guarantee"
+    ],
+    "heroImageAlt": "Person working on laptop",
+    "heroCardTitle": "Task Completed",
+    "heroCardSubtitle": "Website Redesign · {{amount}}",
+    "categoriesTitle": "What do you need help with?",
+    "categoriesSubtitle": "Explore our most popular categories and find the right expert for your job.",
+    "categories": [
+      {
+        "label": "Home Services",
+        "description": "Plumbing, electrical, cleaning, and more.",
+        "imageSrc": "/images/home.png",
+        "imageAlt": "Home services"
+      },
+      {
+        "label": "Freelance & Digital",
+        "description": "Web design, writing, marketing, and code.",
+        "imageSrc": "/images/laptop.jpg",
+        "imageAlt": "Freelance work"
+      },
+      {
+        "label": "Delivery & Moving",
+        "description": "Local delivery, moving help, and errands.",
+        "imageSrc": "/images/deliver.png",
+        "imageAlt": "Delivery service"
+      }
+    ],
+    "whyTitle": "Why people use ConnectMyTask",
+    "whyCards": [
+      {
+        "title": "Post a task for free",
+        "copy": "Describe what you need, set your budget, and get competitive bids within minutes."
+      },
+      {
+        "title": "Secure payments",
+        "copy": "Payments are held securely in escrow until you're 100% satisfied with the work."
+      },
+      {
+        "title": "Trusted providers",
+        "copy": "Check ratings, reviews, and verification badges to pick the best person for the job."
+      }
+    ],
+    "testimonialsTitle": "What our customers say",
+    "testimonialsSubtitle": "Real stories from people who used ConnectMyTask to get important work done.",
+    "testimonials": [
+      {
+        "name": "Sarah Jenkins",
+        "role": "Small Business Owner",
+        "quote": "I needed a complex website built in under a week. I posted the task and found an amazing developer within hours. ConnectMyTask saved my project!",
+        "image": "/images/woman1.png",
+        "imageAlt": "Sarah Jenkins"
+      },
+      {
+        "name": "Michael Lee",
+        "role": "New Homeowner",
+        "quote": "We had a long list of repairs after moving in. Within a day we had reliable pros booked for plumbing, electrical, and painting. It was surprisingly easy.",
+        "image": "/images/man1.png",
+        "imageAlt": "Michael Lee"
+      },
+      {
+        "name": "Amira Patel",
+        "role": "Busy Professional",
+        "quote": "Between work and family I had no time for errands. Delivery and cleaning providers from ConnectMyTask helped me free up my weekends again.",
+        "image": "/images/woman2.png",
+        "imageAlt": "Amira Patel"
+      },
+      {
+        "name": "Daniel Rodriguez",
+        "role": "Freelance Designer",
+        "quote": "ConnectMyTask brings me a steady stream of quality clients. The rating system and secure payments make it easy to focus on great work.",
+        "image": "/images/man2.png",
+        "imageAlt": "Daniel Rodriguez"
+      }
+    ],
+    "ctaTitle": "Ready to get your to-do list done?",
+    "ctaSubtitle": "Join thousands of people who use ConnectMyTask to find trusted professionals every day.",
+    "ctaButton": "Get Started"
+  },
+  "howItWorks": {
+    "tagline": "How It Works",
+    "title": "Get your to-do list done in 4 easy steps",
+    "subtitle": "ConnectMyTask makes it simple to find reliable help for any project. Here's how to get started.",
+    "steps": [
+      {
+        "title": "Post a Task",
+        "description": "Tell us what you need done. Be specific about the details, budget, and timeline."
+      },
+      {
+        "title": "Review Offers",
+        "description": "Receive competitive offers from verified Taskers. Check their profiles and reviews."
+      },
+      {
+        "title": "Choose the Best",
+        "description": "Select the Tasker that fits your needs. Chat with them to clarify details."
+      },
+      {
+        "title": "Get it Done",
+        "description": "The Tasker completes the job. Release payment only when you're 100% satisfied."
+      }
+    ],
+    "cta": "Post a Task Now"
+  },
+  "pricing": {
+    "tagline": "Pricing",
+    "title": "Choose the right plan for you",
+    "subtitle": "Whether you're posting a one-time task or managing ongoing projects, we have a plan that fits your needs.",
+    "price": {
+      "free": "Free",
+      "perMonth": "/mo"
+    },
+    "plans": [
+      {
+        "name": "Basic",
+        "badge": null,
+        "priceType": "free",
+        "priceValue": 0,
+        "priceInterval": "perMonth",
+        "priceNote": "",
+        "description": "For casual users who need help with simple tasks.",
+        "features": [
+          "Post unlimited tasks",
+          "Browse provider profiles",
+          "Secure payments",
+          "Standard support"
+        ],
+        "ctaLabel": "Get Started"
+      },
+      {
+        "name": "Pro",
+        "badge": "Most popular",
+        "priceType": "paid",
+        "priceValue": 9.99,
+        "priceInterval": "perMonth",
+        "priceNote": "For power users who need frequent assistance.",
+        "description": "",
+        "features": [
+          "Everything in Basic",
+          "Priority task matching",
+          "Verified badge on profile",
+          "Zero service fees on first 5 tasks",
+          "Premium support"
+        ],
+        "ctaLabel": "Get Started"
+      },
+      {
+        "name": "Business",
+        "badge": null,
+        "priceType": "paid",
+        "priceValue": 29.99,
+        "priceInterval": "perMonth",
+        "priceNote": "",
+        "description": "For companies managing multiple projects.",
+        "features": [
+          "Everything in Pro",
+          "Multiple team members",
+          "Dedicated account manager",
+          "Invoicing & specialized billing",
+          "API access"
+        ],
+        "ctaLabel": "Contact Sales"
+      }
+    ]
+  },
+  "payment": {
+    "nav": {
+      "home": "Home",
+      "howItWorks": "How it Works",
+      "pricing": "Pricing",
+      "about": "About",
+      "providers": "Providers"
+    },
+    "profileOpenLabel": "Open profile",
+    "profileTitle": "Profile: {{name}}",
+    "profileFallback": "Profile",
+    "profileInitialsFallback": "ME",
+    "auth": {
+      "login": "Log In",
+      "signup": "Sign Up"
+    },
+    "backToPricing": "Back to Pricing",
+    "secureCheckout": "Secure Checkout",
+    "title": "Complete your subscription",
+    "subtitle": "Review your plan and add billing details to activate your ConnectMyTask account.",
+    "billingTitle": "Billing details",
+    "fields": {
+      "email": "Email address",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "cardNumber": "Card number",
+      "expiry": "Expiry",
+      "cvc": "CVC",
+      "postalCode": "Postal code"
+    },
+    "placeholders": {
+      "email": "you@company.com",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "cardNumber": "1234 5678 9012 3456",
+      "expiry": "MM/YY",
+      "cvc": "CVC",
+      "postalCode": "3000"
+    },
+    "promo": {
+      "title": "Promo code",
+      "optional": "Optional",
+      "placeholder": "Enter code",
+      "apply": "Apply"
+    },
+    "selectedPlan": "Selected plan",
+    "price": {
+      "free": "Free",
+      "perMonth": "/ month",
+      "freeNote": "Free plan"
+    },
+    "summary": {
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "totalDue": "Total due today"
+    },
+    "checkout": "Checkout",
+    "termsNote": "By continuing, you agree to our Terms of Service and authorize recurring billing based on your plan.",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "priceType": "free",
+        "priceValue": 0,
+        "description": "For casual users who need help with simple tasks.",
+        "features": [
+          "Post unlimited tasks",
+          "Browse provider profiles",
+          "Secure payments",
+          "Standard support"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "priceType": "paid",
+        "priceValue": 9.99,
+        "description": "For power users who need frequent assistance.",
+        "features": [
+          "Everything in Basic",
+          "Priority task matching",
+          "Verified badge on profile",
+          "Zero service fees on first 5 tasks",
+          "Premium support"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "priceType": "paid",
+        "priceValue": 29.99,
+        "description": "For companies managing multiple projects.",
+        "features": [
+          "Everything in Pro",
+          "Multiple team members",
+          "Dedicated account manager",
+          "Invoicing & specialized billing",
+          "API access"
+        ]
+      }
+    }
+  },
+  "paymentSuccess": {
+    "title": "Payment successful",
+    "subtitle": "Your subscription is active. We’ve sent a receipt to your email.",
+    "viewReceipt": "View receipt",
+    "backHome": "Back to homepage"
+  },
+  "about": {
+    "hero": {
+      "title": "Empowering Communities, One Task at a Time",
+      "subtitle": "ConnectMyTask is on a mission to simplify your life by connecting you with trusted, verified local experts for any task. We believe everyone deserves access to quality services and the freedom to focus on what truly matters.",
+      "stats": {
+        "founded": "Founded",
+        "employees": "Employees",
+        "activeUsers": "Active Users",
+        "countries": "Countries"
+      }
+    },
+    "mission": {
+      "tagline": "Our Mission",
+      "title": "Making Life Easier Through Connection",
+      "paragraph1": "Our mission is to create a world where getting help is as easy as asking for it. We connect people who need tasks done with skilled, verified providers who can deliver exceptional service.",
+      "paragraph2": "By leveraging technology and fostering trust, we're building communities where everyone can thrive—whether you're seeking help or offering your expertise.",
+      "imageAlt": "Person working on laptop",
+      "satisfactionValue": "98%",
+      "satisfactionLabel": "Customer Satisfaction"
+    },
+    "timeline": {
+      "tagline": "Our Journey",
+      "title": "Building the Future of Work",
+      "subtitle": "From a simple idea to a global platform serving hundreds of thousands",
+      "items": [
+        {
+          "title": "The Beginning",
+          "description": "Founded with a vision to simplify how people get things done."
+        },
+        {
+          "title": "Rapid Growth",
+          "description": "Reached 10,000 verified providers and launched in 5 countries."
+        },
+        {
+          "title": "Platform Evolution",
+          "description": "Introduced real-time chat, secure payments, and competitive bidding."
+        },
+        {
+          "title": "Global Expansion",
+          "description": "Expanded to 12 countries with 100k+ active users worldwide."
+        },
+        {
+          "title": "Innovation Leader",
+          "description": "Launched AI-powered matching and became the most trusted platform."
+        },
+        {
+          "title": "Future Forward",
+          "description": "Continuing to innovate and serve communities around the globe."
+        }
+      ]
+    },
+    "values": {
+      "tagline": "Our Values",
+      "title": "What Drives Us Every Day",
+      "subtitle": "We believe in creating a platform that is fair, transparent, and beneficial for everyone involved.",
+      "items": [
+        {
+          "title": "Trust & Safety",
+          "description": "We verify every provider to ensure your peace of mind and safety."
+        },
+        {
+          "title": "Community First",
+          "description": "Building strong local communities by connecting neighbors."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "We maintain high standards for all services provided on our platform."
+        },
+        {
+          "title": "Mission Driven",
+          "description": "Empowering people to reclaim their time and do what they love."
+        }
+      ]
+    },
+    "leadership": {
+      "tagline": "Leadership Team",
+      "title": "Meet the People Behind ConnectMyTask",
+      "subtitle": "Our experienced leadership team is committed to building the best platform for our community.",
+      "members": [
+        {
+          "name": "Sarah Mitchell",
+          "title": "CEO & Co-Founder",
+          "description": "Former VP at TaskRabbit, passionate about building community-driven platforms.",
+          "imageAlt": "Sarah Mitchell"
+        },
+        {
+          "name": "Marcus Chen",
+          "title": "CTO & Co-Founder",
+          "description": "15+ years in tech, previously led engineering teams at Uber and Airbnb.",
+          "imageAlt": "Marcus Chen"
+        },
+        {
+          "name": "Priya Patel",
+          "title": "Chief Product Officer",
+          "description": "Product leader with a track record of building user-loved experiences.",
+          "imageAlt": "Priya Patel"
+        },
+        {
+          "name": "David Torres",
+          "title": "VP of Operations",
+          "description": "Operations expert focused on scaling platforms while maintaining quality.",
+          "imageAlt": "David Torres"
+        }
+      ]
+    },
+    "testimonials": {
+      "tagline": "Testimonials",
+      "title": "Loved by Users and Providers",
+      "subtitle": "Don't just take our word for it—hear from our community",
+      "items": [
+        {
+          "quote": "ConnectMyTask has transformed how we find reliable help for our business needs. The quality of providers is outstanding.",
+          "name": "Jennifer Adams",
+          "role": "Small Business Owner",
+          "affiliation": "Adams Design Studio"
+        },
+        {
+          "quote": "As a service provider, this platform has given me the flexibility to grow my business while connecting with amazing clients.",
+          "name": "Michael Rodriguez",
+          "role": "Professional Handyman",
+          "affiliation": "Rodriguez Home Services"
+        },
+        {
+          "quote": "The verification process and transparent ratings gave me confidence to hire for the first time. Couldn't be happier!",
+          "name": "Emily Thompson",
+          "role": "Homeowner",
+          "affiliation": "First-time User"
+        }
+      ]
+    },
+    "culture": {
+      "tagline": "Our Culture",
+      "title": "Where Innovation Meets Impact",
+      "subtitle": "We've built a culture that celebrates creativity, values diversity, and empowers every team member to make a difference. Our team is passionate about solving real problems and creating meaningful connections.",
+      "points": [
+        {
+          "title": "Remote-First",
+          "desc": "Work from anywhere with flexible hours."
+        },
+        {
+          "title": "Growth Mindset",
+          "desc": "Continuous learning and development opportunities."
+        },
+        {
+          "title": "Impact Focused",
+          "desc": "Your work directly improves people's lives."
+        }
+      ],
+      "cta": "Join Our Team",
+      "images": {
+        "team1": "Team collaboration",
+        "team2": "Team handshake",
+        "team3": "Welcome back"
+      }
+    },
+    "numbers": {
+      "title": "By the Numbers",
+      "subtitle": "Our platform's growth reflects the trust our community places in us",
+      "stats": [
+        {
+          "label": "Tasks Completed",
+          "value": "500k+"
+        },
+        {
+          "label": "Verified Providers",
+          "value": "25k+"
+        },
+        {
+          "label": "Average Rating",
+          "value": "4.8/5"
+        },
+        {
+          "label": "Customer Satisfaction",
+          "value": "98%"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ready to Join Our Community?",
+      "subtitle": "Whether you need help with a task or want to offer your services, ConnectMyTask is here for you.",
+      "primary": "Get Started",
+      "secondary": "Learn more"
+    }
+  },
+  "postTask": {
+    "fallbackName": "there",
+    "hero": {
+      "badge": "Join 100,000+ satisfied customers",
+      "title": "Post a Task, Get It Done",
+      "subtitle": "Describe what you need done and receive competitive bids from verified professionals in minutes. It's free to post!",
+      "primaryCta": "Get Started Free",
+      "secondaryCta": "Learn How It Works"
+    },
+    "trustIndicators": [
+      {
+        "title": "Get Bids Fast",
+        "description": "Receive competitive quotes within minutes from verified professionals"
+      },
+      {
+        "title": "Protected Payments",
+        "description": "Your money is held securely until the job is complete"
+      },
+      {
+        "title": "25k+ Providers",
+        "description": "Choose from our network of skilled, background-checked professionals"
+      }
+    ],
+    "welcome": "Welcome back, {{name}} 👋",
+    "welcomeSubtitle": "Ready to get something done? Fill out the details below.",
+    "templatesTitle": "Quick Start Templates",
+    "loadDraft": "Load saved draft",
+    "form": {
+      "title": "Post Your Task",
+      "subtitle": "Fill out the details and get matched with the perfect provider",
+      "fields": {
+        "title": "What do you need done?",
+        "category": "Choose a category",
+        "description": "Task Description",
+        "dueDate": "Due Date",
+        "budget": "Budget",
+        "urgency": "How urgent is this?",
+        "photos": "Attach Photos (optional)",
+        "currency": "Currency"
+      },
+      "placeholders": {
+        "title": "e.g., Fix leaking kitchen faucet",
+        "description": "Provide details about what needs to be done...",
+        "budget": "{{amount}}"
+      },
+      "upload": {
+        "cta": "Click to upload photos",
+        "hint": "JPG, PNG up to 5 images",
+        "selected_one": "{{count}} file selected",
+        "selected_other": "{{count}} files selected"
+      },
+      "submitting": "Posting…",
+      "submit": "Post My Task →",
+      "saveDraft": "Save Draft",
+      "saved": "✓ Saved!",
+      "help": {
+        "currencyNote": "Choose the currency for this task. Others will see conversions in their preferred language."
+      }
+    },
+    "categories": {
+      "homeRepairs": "Home Repairs",
+      "cleaning": "Cleaning",
+      "moving": "Moving",
+      "electrical": "Electrical",
+      "plumbing": "Plumbing",
+      "painting": "Painting",
+      "gardening": "Gardening",
+      "delivery": "Delivery",
+      "techSupport": "Tech Support",
+      "tutoring": "Tutoring"
+    },
+    "templates": {
+      "leakyFaucet": {
+        "label": "Fix leaking faucet",
+        "description": "I have a leaking kitchen faucet that needs to be fixed. The faucet drips constantly and the handle is loose."
+      },
+      "deepClean": {
+        "label": "Deep clean 2BR apartment",
+        "description": "Need a thorough deep clean of a 2-bedroom apartment including kitchen, bathrooms, and all living areas."
+      },
+      "mountTv": {
+        "label": "Mount TV on wall",
+        "description": "Need help mounting a 55-inch TV on a plaster wall. I have the wall mount bracket already."
+      },
+      "helpMoving": {
+        "label": "Help with moving",
+        "description": "Need help moving furniture and boxes from a 1-bedroom apartment to a new location within the city."
+      },
+      "gardenMaintenance": {
+        "label": "Garden maintenance",
+        "description": "Lawn mowing, hedge trimming, and general garden tidy-up for a medium-sized backyard."
+      },
+      "installFan": {
+        "label": "Install ceiling fan",
+        "description": "Need a licensed electrician to install a ceiling fan in the living room. Fan already purchased."
+      }
+    },
+    "urgencyOptions": [
+      {
+        "value": "normal",
+        "label": "Normal",
+        "desc": "Within a week"
+      },
+      {
+        "value": "soon",
+        "label": "Soon",
+        "desc": "Within 2-3 days"
+      },
+      {
+        "value": "urgent",
+        "label": "Urgent",
+        "desc": "ASAP"
+      }
+    ],
+    "sidebar": {
+      "howItWorksTitle": "How It Works",
+      "testimonial": {
+        "quote": "I posted a task to fix my garage door and received 5 quotes within an hour. The provider I chose did an excellent job at a fair price!",
+        "name": "Michael Chen",
+        "location": "San Francisco, CA",
+        "initials": "M"
+      },
+      "statsTitle": "Why Choose ConnectMyTask?",
+      "budgetGuide": {
+        "title": "Budget Guide",
+        "subtitle": "Average prices for common tasks:"
+      }
+    },
+    "howItWorks": [
+      {
+        "step": 1,
+        "title": "Describe Your Task",
+        "desc": "Tell us what you need done"
+      },
+      {
+        "step": 2,
+        "title": "Get Competitive Bids",
+        "desc": "Receive offers from qualified providers"
+      },
+      {
+        "step": 3,
+        "title": "Choose & Complete",
+        "desc": "Select the best provider and get it done"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Average Response Time",
+        "value": "Under 2 hours"
+      },
+      {
+        "label": "Tasks Posted This Month",
+        "value": "15,000+"
+      },
+      {
+        "label": "Customer Satisfaction",
+        "value": "4.8/5"
+      }
+    ],
+    "budgetGuide": {
+      "items": [
+        {
+          "task": "Cleaning (2BR)",
+          "min": 120,
+          "max": 200
+        },
+        {
+          "task": "Plumbing repair",
+          "min": 80,
+          "max": 250
+        },
+        {
+          "task": "Painting (1 room)",
+          "min": 200,
+          "max": 400
+        },
+        {
+          "task": "Moving (local)",
+          "min": 200,
+          "max": 500
+        },
+        {
+          "task": "Electrical work",
+          "min": 100,
+          "max": 300
+        }
+      ]
+    },
+    "featuresTitle": "Built for Your Convenience",
+    "featuresSubtitle": "Everything you need to manage tasks effortlessly, from posting to completion.",
+    "features": [
+      {
+        "icon": "📋",
+        "title": "Smart Templates",
+        "desc": "Jump-start your task with pre-filled templates for common jobs."
+      },
+      {
+        "icon": "💾",
+        "title": "Save Drafts",
+        "desc": "Not ready to post? Save your progress and come back anytime."
+      },
+      {
+        "icon": "🔔",
+        "title": "Instant Notifications",
+        "desc": "Get notified the moment a provider bids on your task."
+      },
+      {
+        "icon": "📊",
+        "title": "Budget Estimator",
+        "desc": "See average market prices so you set the right budget."
+      },
+      {
+        "icon": "📸",
+        "title": "Photo Attachments",
+        "desc": "Upload photos to help providers understand the job better."
+      },
+      {
+        "icon": "⏰",
+        "title": "Urgency Levels",
+        "desc": "Mark tasks as urgent to attract providers who are available now."
+      },
+      {
+        "icon": "⭐",
+        "title": "Provider Ratings",
+        "desc": "Read reviews and ratings before choosing who to work with."
+      },
+      {
+        "icon": "🔒",
+        "title": "Secure Payments",
+        "desc": "Funds are held in escrow and released only when you approve."
+      }
+    ],
+    "success": {
+      "title": "Task Posted Successfully!",
+      "subtitle": "Your task has been published. Providers will start sending bids shortly. You'll receive notifications when new bids arrive.",
+      "dashboard": "Go to Dashboard",
+      "postAnother": "Post Another Task"
+    },
+    "errors": {
+      "postFailed": "Unable to post task right now."
+    }
+  },
+  "findTasks": {
+    "hero": {
+      "badge": "All providers are background-checked & verified",
+      "title": "Find Trusted Professionals",
+      "subtitle": "Browse our community of 25,000+ verified service providers. From home repairs to digital services, find the perfect match for your needs.",
+      "searchPlaceholder": "Search by service, skill, or name...",
+      "searchButton": "Search",
+      "stats": [
+        {
+          "value": "25k+",
+          "label": "Verified Providers"
+        },
+        {
+          "value": "4.8/5",
+          "label": "Average Rating"
+        },
+        {
+          "value": "98%",
+          "label": "Success Rate"
+        }
+      ]
+    },
+    "categories": {
+      "all": "All",
+      "homeServices": "Home Services",
+      "digitalTech": "Digital & Tech",
+      "movingDelivery": "Moving & Delivery",
+      "eventsPhoto": "Events & Photo"
+    },
+    "categoriesCount": "{{count}} providers",
+    "recent": {
+      "title": "Recently Posted Tasks",
+      "subtitle": "Open tasks from users looking for providers",
+      "cta": "Post a Task",
+      "urgency": {
+        "urgent": "Urgent",
+        "soon": "Soon"
+      },
+      "due": "Due {{date}}",
+      "userFallback": "User"
+    },
+    "featured": {
+      "title": "Featured Providers",
+      "subtitle": "Top-rated professionals ready to help"
+    },
+    "filters": {
+      "show": "More Filters",
+      "hide": "Hide Filters",
+      "clear": "Clear all filters",
+      "rating": {
+        "label": "Minimum Rating",
+        "any": "Any"
+      },
+      "price": {
+        "label": "Price Range",
+        "any": "Any",
+        "under": "Under {{amount}}{{perHour}}",
+        "range": "{{min}} - {{max}}{{perHour}}",
+        "over": "{{amount}}+{{perHour}}"
+      },
+      "sort": {
+        "label": "Sort By",
+        "recommended": "Recommended",
+        "highestRated": "Highest Rated",
+        "mostJobs": "Most Jobs",
+        "priceLowHigh": "Price: Low → High",
+        "priceHighLow": "Price: High → Low"
+      },
+      "available": "Available now"
+    },
+    "resultsCount_one": "{{count}} provider found",
+    "resultsCount_other": "{{count}} providers found",
+    "empty": {
+      "title": "No providers match your filters",
+      "subtitle": "Try adjusting your search or filters to find more results."
+    },
+    "provider": {
+      "verified": "Verified",
+      "jobs_one": "{{count}} job",
+      "jobs_other": "{{count}} jobs",
+      "perHour": "/hr",
+      "busy": "Busy",
+      "viewProfile": "View Profile"
+    },
+    "providerProfile": {
+      "notFoundTitle": "Provider Not Found",
+      "notFoundSubtitle": "This provider profile doesn't exist or has been removed.",
+      "browseProviders": "Browse Providers",
+      "back": "Back to providers",
+      "verified": "Verified",
+      "available": "Available",
+      "currentlyBusy": "Currently busy",
+      "memberSince": "Member since {{date}}",
+      "hire": "Hire {{name}}",
+      "hireArrow": "Hire {{name}} →",
+      "sendMessage": "Send Message",
+      "estimatedRate": "Estimated rate",
+      "responseTime": "Response time",
+      "completionRate": "Completion rate",
+      "repeatClients": "Repeat clients",
+      "quickInfo": "Quick Info",
+      "shareTitle": "Share this profile",
+      "copyLink": "Copy Link",
+      "email": "Email",
+      "skillsTitle": "Skills & Expertise",
+      "bioFallback": "Experienced professional based in {{location}}, specializing in {{skills}}.",
+      "verificationTitle": "Verification Details",
+      "notApplicable": "N/A",
+      "tabs": {
+        "about": "About",
+        "portfolio": "Portfolio",
+        "reviews": "Reviews ({{count}})"
+      },
+      "stats": {
+        "rating": "Rating",
+        "reviews": "{{count}} reviews",
+        "jobsDone": "Jobs Done",
+        "completed": "{{percent}}% completed",
+        "responseTime": "Response Time",
+        "average": "Average",
+        "repeatClients": "Repeat Clients",
+        "comeBackAgain": "Come back again"
+      },
+      "verification": {
+        "identity": "Identity",
+        "background": "Background",
+        "license": "License"
+      },
+      "responseTimes": {
+        "under30Mins": "Under 30 mins",
+        "under1Hour": "Under 1 hour",
+        "under2Hours": "Under 2 hours",
+        "under3Hours": "Under 3 hours"
+      },
+      "languageNames": {
+        "english": "English",
+        "spanish": "Spanish",
+        "mandarin": "Mandarin",
+        "korean": "Korean",
+        "urdu": "Urdu",
+        "hindi": "Hindi",
+        "vietnamese": "Vietnamese",
+        "gujarati": "Gujarati",
+        "cantonese": "Cantonese"
+      }
+    },
+    "why": {
+      "title": "Why Choose Our Providers?",
+      "subtitle": "Every professional on our platform is thoroughly vetted for your peace of mind",
+      "items": [
+        {
+          "icon": "🛡️",
+          "title": "Background Checked",
+          "desc": "All providers undergo comprehensive background and identity verification"
+        },
+        {
+          "icon": "✅",
+          "title": "Skill Verified",
+          "desc": "We verify credentials, licenses, and previous work experience"
+        },
+        {
+          "icon": "⭐",
+          "title": "Highly Rated",
+          "desc": "Average provider rating of 4.8/5 based on real customer reviews"
+        }
+      ]
+    },
+    "verifiedModal": {
+      "title": "Verified Professional",
+      "subtitle": "This provider has passed our rigorous verification process",
+      "identity": {
+        "title": "Identity Verified",
+        "description": "Government-issued ID has been confirmed",
+        "status": "PASSED"
+      },
+      "background": {
+        "title": "Background Check",
+        "description": "Comprehensive criminal & financial background check",
+        "status": "CLEARED"
+      },
+      "license": {
+        "title": "License & Credentials",
+        "verifiedDescription": "Professional licenses and certifications confirmed",
+        "notApplicable": "Not applicable for this service type",
+        "statusVerified": "VERIFIED",
+        "statusNa": "N/A"
+      },
+      "verifiedOn": "Verified on:",
+      "verifiedBy": "By:",
+      "close": "Close"
+    },
+    "time": {
+      "justNow": "Just now",
+      "minutesAgo_one": "{{count}}m ago",
+      "minutesAgo_other": "{{count}}m ago",
+      "hoursAgo_one": "{{count}}h ago",
+      "hoursAgo_other": "{{count}}h ago",
+      "daysAgo_one": "{{count}}d ago",
+      "daysAgo_other": "{{count}}d ago"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions? We're here to help. Send us a message and we'll respond as soon as possible."
+    },
+    "cards": {
+      "email": {
+        "title": "Email",
+        "note": "We typically respond within 24 hours"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+880 1XXX-XXXXXX",
+        "note": "Mon–Fri, 9am–6pm (BST)"
+      },
+      "chat": {
+        "title": "Live Chat",
+        "cta": "Chat with us",
+        "note": "Available 24/7 for urgent issues"
+      }
+    },
+    "form": {
+      "title": "Send us a message",
+      "firstName": {
+        "label": "First name",
+        "placeholder": "John"
+      },
+      "lastName": {
+        "label": "Last name",
+        "placeholder": "Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com"
+      },
+      "inquiry": {
+        "label": "Inquiry Type",
+        "placeholder": "Select a category",
+        "options": {
+          "general": "General",
+          "support": "Support",
+          "partnership": "Partnership",
+          "careers": "Careers",
+          "trust": "Trust & Safety",
+          "other": "Other"
+        }
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "How can we help?"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Please provide details about your inquiry..."
+      },
+      "submit": {
+        "default": "Send Message",
+        "sending": "Sending..."
+      },
+      "status": {
+        "success": "Message sent successfully! We'll get back to you within 24 hours.",
+        "error": "Failed to send message. Please try again.",
+        "neutral": "We'll get back to you within 24 hours."
+      }
+    },
+    "officesTitle": "Our Offices",
+    "offices": [
+      {
+        "name": "Headquarters",
+        "city": "Dhaka",
+        "address": "Gulshan 1, Dhaka 1212, Bangladesh"
+      },
+      {
+        "name": "Chittagong Office",
+        "city": "Chittagong",
+        "address": "Agrabad C/A, Chittagong 4100, Bangladesh"
+      },
+      {
+        "name": "Operations Center",
+        "city": "Dhaka (Uttara)",
+        "address": "Uttara, Dhaka 1229, Bangladesh"
+      }
+    ],
+    "hours": {
+      "title": "Business Hours",
+      "items": [
+        {
+          "day": "Monday – Friday",
+          "time": "9:00 AM – 6:00 PM BST"
+        },
+        {
+          "day": "Saturday",
+          "time": "10:00 AM – 4:00 PM BST"
+        },
+        {
+          "day": "Sunday",
+          "time": "Closed"
+        }
+      ],
+      "emergency": "24/7 Emergency Support Available"
+    },
+    "faq": {
+      "title": "Quick Answers",
+      "items": [
+        {
+          "question": "How quickly will I get a response?",
+          "answer": "We aim to respond to all inquiries within 24 hours during business days. Urgent safety issues are handled immediately."
+        },
+        {
+          "question": "Can I schedule a call with support?",
+          "answer": "Yes. Choose \"Support\" and include your preferred time in the message. We'll confirm a time that works."
+        },
+        {
+          "question": "Do you offer phone support?",
+          "answer": "Phone support is available Monday–Friday, 9am–6pm BST. For urgent issues outside these hours, please use our 24/7 live chat or emergency line."
+        }
+      ]
+    },
+    "support": {
+      "tagline": "Support Team",
+      "title": "We're Here to Help",
+      "subtitle": "Our dedicated support team is passionate about ensuring you have the best experience possible. Whether you have a question, need technical help, or want to provide feedback, we're here for you.",
+      "points": [
+        "Dedicated support specialists",
+        "Average response time under 2 hours",
+        "97% customer satisfaction rating"
+      ],
+      "imageAlt": "Headset and laptop ready for support call"
+    }
+  },
+  "trustSafety": {
+    "hero": {
+      "title": "Trust & Safety",
+      "subtitle": "Your safety is our top priority. We've built a multi-layered safety system to ensure every task is secure, transparent, and trustworthy."
+    },
+    "stats": [
+      {
+        "label": "Safe Transactions",
+        "value": "99.8%"
+      },
+      {
+        "label": "Background Checks",
+        "value": "50k+"
+      },
+      {
+        "label": "Average Response Time",
+        "value": "<2min"
+      },
+      {
+        "label": "Safety Monitoring",
+        "value": "24/7"
+      }
+    ],
+    "safetyFirst": {
+      "tagline": "Safety First",
+      "title": "How We Keep You Safe",
+      "subtitle": "Multiple layers of protection work together to create a safe, trusted environment."
+    },
+    "safetyFeatures": [
+      {
+        "title": "Identity Verification",
+        "description": "Every Tasker on our platform undergoes a rigorous identity verification process. We check government IDs and perform background checks where applicable to ensure you're working with real, trusted people."
+      },
+      {
+        "title": "Secure Payments",
+        "description": "Your money is safe with us. We hold payments in a secure escrow account until the task is completed to your satisfaction. Payments are processed through industry-leading encrypted gateways."
+      },
+      {
+        "title": "Community Reviews",
+        "description": "Our transparent review system allows you to see feedback from previous customers before you hire. Taskers are rated on communication, quality, and reliability."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Our dedicated support team is available around the clock to assist with any issues or disputes. We're here to help you resolve problems quickly and fairly."
+      }
+    ],
+    "verification": {
+      "tagline": "Verification",
+      "title": "Rigorous Provider Screening",
+      "subtitle": "Every service provider goes through our comprehensive 4-step verification process before they can accept tasks on our platform.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "ID Verification",
+          "description": "All providers must submit government-issued photo identification for verification."
+        },
+        {
+          "step": 2,
+          "title": "Background Checks",
+          "description": "We conduct comprehensive background checks including criminal records and employment history."
+        },
+        {
+          "step": 3,
+          "title": "Skill Assessment",
+          "description": "Providers must demonstrate their expertise through portfolio reviews and skill tests."
+        },
+        {
+          "step": 4,
+          "title": "Ongoing Monitoring",
+          "description": "We continuously monitor provider performance and conduct periodic re-verification."
+        }
+      ]
+    },
+    "bestPractices": {
+      "tagline": "Best Practices",
+      "title": "Stay Safe on the Platform",
+      "subtitle": "Follow these guidelines to ensure a safe and positive experience.",
+      "items": [
+        {
+          "title": "Communicate on Platform",
+          "description": "Keep all communications within the platform to maintain a record and ensure accountability."
+        },
+        {
+          "title": "Review Profiles Carefully",
+          "description": "Check ratings, reviews, and verification badges before hiring a provider."
+        },
+        {
+          "title": "Report Suspicious Activity",
+          "description": "If something doesn't feel right, report it immediately to our Trust & Safety team."
+        },
+        {
+          "title": "Confirm Task Details",
+          "description": "Always confirm scope, timeline, and pricing before starting any work."
+        }
+      ]
+    },
+    "coverage": {
+      "tagline": "Protection",
+      "title": "Comprehensive Coverage",
+      "subtitle": "We provide multiple layers of protection to give you peace of mind.",
+      "imageAlt": "Security shield icon",
+      "amountTitle": "{{amount}} Liability Coverage",
+      "items": [
+        {
+          "title": "ConnectMyTask Guarantee",
+          "description": "Your satisfaction is guaranteed or your money back."
+        },
+        {
+          "title": "Liability Coverage",
+          "amount": 1000000,
+          "description": "All tasks are covered by our comprehensive insurance policy."
+        },
+        {
+          "title": "Dispute Resolution",
+          "description": "Fair mediation process for any disagreements."
+        },
+        {
+          "title": "Secure Payment Hold",
+          "description": "Payments released only when you approve the completed work."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Need Help? We're Here 24/7",
+      "subtitle": "Our dedicated Trust & Safety team is always available to assist you.",
+      "contact": "Contact Support",
+      "emergency": "Emergency Line: 1-800-555-0199"
+    }
+  },
+  "careers": {
+    "hero": {
+      "title": "Join Our Mission",
+      "subtitle": "Help us build the future of work. We're looking for passionate individuals to revolutionise how people get things done.",
+      "cta": "View Open Positions",
+      "stats": {
+        "team": {
+          "value": "50+",
+          "label": "Team Members"
+        },
+        "countries": {
+          "value": "12",
+          "label": "Countries"
+        },
+        "openRoles": {
+          "value": "28",
+          "label": "Open Positions"
+        }
+      }
+    },
+    "mission": {
+      "tagline": "Why ConnectMyTask",
+      "title": "More Than Just a Job",
+      "subtitle": "Join a team that's passionate about making a real impact on people's lives.",
+      "imageAlt": "People collaborating in a modern workspace",
+      "items": [
+        {
+          "title": "Growth & Impact",
+          "description": "Work on products that millions of people use every day. Your contributions directly shape how people work and live."
+        },
+        {
+          "title": "Amazing Team",
+          "description": "Join talented, passionate people from diverse backgrounds who are committed to building something meaningful together."
+        },
+        {
+          "title": "Fast-Paced Environment",
+          "description": "Move fast, ship often, and see the results of your work immediately. We value execution and experimentation."
+        },
+        {
+          "title": "Culture of Care",
+          "description": "We prioritise work-life balance, mental health, and an inclusive environment where everyone can thrive."
+        }
+      ]
+    },
+    "benefits": {
+      "tagline": "Benefits & Perks",
+      "title": "We Take Care of Our Team",
+      "subtitle": "Comprehensive benefits designed to support you at work and in life.",
+      "items": [
+        {
+          "title": "Competitive Compensation",
+          "description": "Market-leading salaries plus equity in a fast-growing company"
+        },
+        {
+          "title": "Health & Wellness",
+          "description": "Comprehensive medical, dental, and vision coverage for you and your family"
+        },
+        {
+          "title": "Remote-First",
+          "description": "Work from anywhere with flexible hours and home office stipend"
+        },
+        {
+          "title": "Unlimited PTO",
+          "description": "Take the time you need to recharge and maintain work-life balance"
+        },
+        {
+          "title": "Learning & Development",
+          "description": "Annual learning budget and access to courses, conferences, and workshops"
+        },
+        {
+          "title": "Company Retreats",
+          "description": "Annual all-hands retreats in exciting locations around the world"
+        },
+        {
+          "title": "Parental Leave",
+          "description": "Generous parental leave for all new parents"
+        },
+        {
+          "title": "401(k) Matching",
+          "description": "Company match on retirement contributions to help you plan for the future"
+        }
+      ]
+    },
+    "values": {
+      "tagline": "Our Values",
+      "title": "What Drives Us",
+      "subtitle": "The principles that guide how we build, ship, and support each other.",
+      "items": [
+        {
+          "title": "Customer Obsessed",
+          "description": "We put our customers and providers first in everything we do."
+        },
+        {
+          "title": "Move Fast",
+          "description": "We bias toward action and aren't afraid to experiment and iterate."
+        },
+        {
+          "title": "Think Big",
+          "description": "We aim high and challenge ourselves to solve hard problems."
+        },
+        {
+          "title": "Own It",
+          "description": "We take ownership of our work and deliver results."
+        },
+        {
+          "title": "Build Together",
+          "description": "We collaborate, support each other, and win as a team."
+        },
+        {
+          "title": "Stay Humble",
+          "description": "We're always learning and open to feedback."
+        }
+      ]
+    },
+    "diversity": {
+      "tagline": "Diversity & Inclusion",
+      "title": "Built by Everyone, For Everyone",
+      "subtitle": "We're committed to building a diverse and inclusive team that reflects the communities we serve. Different perspectives make us stronger and help us build better products.",
+      "points": [
+        "Equal opportunity employer",
+        "Inclusive hiring practices",
+        "Employee resource groups"
+      ],
+      "imageAlt": "Diverse team collaborating around a board with sticky notes"
+    },
+    "positions": {
+      "tagline": "Open Positions",
+      "title": "Find Your Next Role",
+      "subtitle": "We're hiring across all departments. Filter by team to find your perfect fit.",
+      "fullTime": "Full-time",
+      "apply": "Apply Now",
+      "loadMore": "Load more jobs",
+      "final": {
+        "title": "Don't See the Perfect Role?",
+        "subtitle": "We're always looking for talented people. Send us your resume and we'll keep you in mind for future opportunities.",
+        "cta": "Get in Touch"
+      }
+    },
+    "categories": {
+      "all": "All",
+      "engineering": "Engineering",
+      "product": "Product",
+      "design": "Design",
+      "marketing": "Marketing",
+      "operations": "Operations",
+      "data": "Data"
+    },
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Senior Full Stack Engineer",
+        "departmentKey": "engineering",
+        "location": "San Francisco, CA / Remote",
+        "description": "Build scalable systems that connect millions of users with service providers.",
+        "skills": [
+          "React",
+          "Node.js",
+          "TypeScript",
+          "AWS"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Backend Engineer",
+        "departmentKey": "engineering",
+        "location": "Remote",
+        "description": "Build robust APIs and services powering our marketplace.",
+        "skills": [
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "Microservices"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Frontend Engineer",
+        "departmentKey": "engineering",
+        "location": "New York, NY / Remote",
+        "description": "Create fast, accessible web experiences for customers and providers.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "CSS",
+          "Testing"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "DevOps Engineer",
+        "departmentKey": "engineering",
+        "location": "Remote",
+        "description": "Own CI/CD, monitoring, and infrastructure for a global platform.",
+        "skills": [
+          "AWS",
+          "Kubernetes",
+          "Terraform",
+          "Linux"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Mobile Engineer",
+        "departmentKey": "engineering",
+        "location": "Austin, TX / Remote",
+        "description": "Ship native iOS and Android apps used by millions.",
+        "skills": [
+          "React Native",
+          "iOS",
+          "Android",
+          "APIs"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "QA Engineer",
+        "departmentKey": "engineering",
+        "location": "Remote",
+        "description": "Design and automate tests to keep our product reliable.",
+        "skills": [
+          "Automation",
+          "Selenium",
+          "API Testing",
+          "CI"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Security Engineer",
+        "departmentKey": "engineering",
+        "location": "San Francisco, CA / Remote",
+        "description": "Protect user data and platform integrity.",
+        "skills": [
+          "Security",
+          "Compliance",
+          "Pen Testing",
+          "AWS"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Data Engineer",
+        "departmentKey": "engineering",
+        "location": "Remote",
+        "description": "Build pipelines and warehouses that power analytics.",
+        "skills": [
+          "Python",
+          "SQL",
+          "Airflow",
+          "BigQuery"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Staff Engineer",
+        "departmentKey": "engineering",
+        "location": "San Francisco, CA",
+        "description": "Lead technical direction and mentor engineers.",
+        "skills": [
+          "Architecture",
+          "Leadership",
+          "System Design",
+          "Mentoring"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Site Reliability Engineer",
+        "departmentKey": "engineering",
+        "location": "Remote",
+        "description": "Keep our systems fast and available 24/7.",
+        "skills": [
+          "SRE",
+          "On-call",
+          "Monitoring",
+          "Incidents"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Full Stack Engineer",
+        "departmentKey": "engineering",
+        "location": "Dhaka, Bangladesh / Remote",
+        "description": "Contribute to core product features end-to-end.",
+        "skills": [
+          "React",
+          "Node.js",
+          "REST",
+          "Git"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Platform Engineer",
+        "departmentKey": "engineering",
+        "location": "Remote",
+        "description": "Improve developer experience and shared platform services.",
+        "skills": [
+          "Go",
+          "Kubernetes",
+          "APIs",
+          "Documentation"
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Senior Product Manager",
+        "departmentKey": "product",
+        "location": "Remote",
+        "description": "Drive product strategy and execution for our core marketplace platform.",
+        "skills": [
+          "Product Strategy",
+          "Analytics",
+          "Roadmapping",
+          "Stakeholder Management"
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Product Manager",
+        "departmentKey": "product",
+        "location": "New York, NY / Hybrid",
+        "description": "Own a key area of the product and work with design and engineering.",
+        "skills": [
+          "Prioritization",
+          "User Research",
+          "Metrics",
+          "Agile"
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Associate Product Manager",
+        "departmentKey": "product",
+        "location": "Remote",
+        "description": "Learn product craft and ship features with senior PMs.",
+        "skills": [
+          "Requirements",
+          "Documentation",
+          "Launch",
+          "Feedback"
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Product Designer",
+        "departmentKey": "design",
+        "location": "New York, NY / Hybrid",
+        "description": "Design intuitive experiences that delight users and providers alike.",
+        "skills": [
+          "Figma",
+          "User Research",
+          "Prototyping",
+          "Design Systems"
+        ]
+      },
+      {
+        "id": 17,
+        "title": "UX Researcher",
+        "departmentKey": "design",
+        "location": "Remote",
+        "description": "Uncover user needs and validate concepts through research.",
+        "skills": [
+          "Interviews",
+          "Surveys",
+          "Usability",
+          "Synthesis"
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Marketing Manager",
+        "departmentKey": "marketing",
+        "location": "San Francisco, CA / Remote",
+        "description": "Lead growth and brand campaigns across channels.",
+        "skills": [
+          "Growth",
+          "Brand",
+          "Campaigns",
+          "Analytics"
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Content Writer",
+        "departmentKey": "marketing",
+        "location": "Remote",
+        "description": "Create blog posts, emails, and in-app copy that converts.",
+        "skills": [
+          "Copywriting",
+          "SEO",
+          "Email",
+          "Tone of Voice"
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Digital Marketing Specialist",
+        "departmentKey": "marketing",
+        "location": "Remote",
+        "description": "Run paid and organic campaigns and optimize funnels.",
+        "skills": [
+          "Paid Social",
+          "Google Ads",
+          "Analytics",
+          "A/B Testing"
+        ]
+      },
+      {
+        "id": 21,
+        "title": "Community Manager",
+        "departmentKey": "marketing",
+        "location": "Remote",
+        "description": "Build and engage our provider and customer communities.",
+        "skills": [
+          "Community",
+          "Social",
+          "Events",
+          "Moderation"
+        ]
+      },
+      {
+        "id": 22,
+        "title": "Trust & Safety Associate",
+        "departmentKey": "operations",
+        "location": "Remote",
+        "description": "Ensure platform safety and handle escalated user issues.",
+        "skills": [
+          "Investigation",
+          "Policy Enforcement",
+          "Communication",
+          "Analysis"
+        ]
+      },
+      {
+        "id": 23,
+        "title": "Operations Manager",
+        "departmentKey": "operations",
+        "location": "Austin, TX / Remote",
+        "description": "Scale operations and improve processes for support and safety.",
+        "skills": [
+          "Process",
+          "Vendors",
+          "Metrics",
+          "Improvement"
+        ]
+      },
+      {
+        "id": 24,
+        "title": "Customer Support Lead",
+        "departmentKey": "operations",
+        "location": "Remote",
+        "description": "Lead a team helping customers and providers succeed.",
+        "skills": [
+          "Support",
+          "Leadership",
+          "Zendesk",
+          "SLA"
+        ]
+      },
+      {
+        "id": 25,
+        "title": "Fraud Analyst",
+        "departmentKey": "operations",
+        "location": "Remote",
+        "description": "Detect and prevent fraud and abuse on the platform.",
+        "skills": [
+          "Fraud",
+          "Data",
+          "Rules",
+          "Escalation"
+        ]
+      },
+      {
+        "id": 26,
+        "title": "Partner Operations",
+        "departmentKey": "operations",
+        "location": "Dhaka, Bangladesh / Remote",
+        "description": "Onboard and support provider partners at scale.",
+        "skills": [
+          "Onboarding",
+          "Partners",
+          "Process",
+          "Tools"
+        ]
+      },
+      {
+        "id": 27,
+        "title": "Data Analyst",
+        "departmentKey": "data",
+        "location": "Remote",
+        "description": "Turn data into insights that drive product and business decisions.",
+        "skills": [
+          "SQL",
+          "Python",
+          "Dashboards",
+          "Statistics"
+        ]
+      },
+      {
+        "id": 28,
+        "title": "Analytics Engineer",
+        "departmentKey": "data",
+        "location": "San Francisco, CA / Remote",
+        "description": "Build reliable data models and self-serve analytics.",
+        "skills": [
+          "dbt",
+          "SQL",
+          "Looker",
+          "Warehouse"
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "lastUpdated": "March 11, 2026",
+    "hero": {
+      "label": "Terms",
+      "title": "Terms of Service",
+      "lastUpdatedLabel": "Last updated: {{date}}"
+    },
+    "notice": {
+      "title": "Important Notice",
+      "body": "Please read these Terms of Service carefully before using ConnectMyTask. By using our platform, you agree to be bound by these terms. If you do not agree to these terms, please do not use our service."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "body": "By accessing and using ConnectMyTask (\"the Platform\", \"we\", \"us\", or \"our\"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by the above, please do not use this service."
+      },
+      "description": {
+        "title": "2. Description of Service",
+        "body": "ConnectMyTask is a platform that connects users looking for services (\"Customers\" or \"Users\") with independent service providers (\"Taskers\" or \"Providers\"). We do not provide the services ourselves; we provide the platform for connection, matching, and transaction facilitation between Customers and Taskers."
+      },
+      "accounts": {
+        "title": "3. User Accounts",
+        "items": [
+          {
+            "title": "3.1 Account Creation",
+            "body": "You must create an account to use certain features of our Platform. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete."
+          },
+          {
+            "title": "3.2 Account Security",
+            "body": "You are responsible for safeguarding the password you use to access the Platform and for any activities or actions under your password. You agree not to disclose your password to any third party and must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account."
+          },
+          {
+            "title": "3.3 Age Requirement",
+            "body": "You must be at least 18 years of age to use this Platform. By using the Platform, you represent and warrant that you meet this age requirement."
+          }
+        ]
+      },
+      "conduct": {
+        "title": "4. User Conduct and Responsibilities",
+        "items": [
+          {
+            "title": "4.1 Prohibited Activities",
+            "intro": "You agree not to:",
+            "bullets": [
+              "(a) Use the Platform for any unlawful purpose or in violation of any applicable laws of Bangladesh or other applicable jurisdictions.",
+              "(b) Violate or encourage others to violate the rights of third parties.",
+              "(c) Post, upload, or distribute any content that is defamatory, obscene, threatening, or hateful.",
+              "(d) Use the Platform to transmit any computer viruses or malicious code.",
+              "(e) Attempt to interfere with the proper functioning of the Platform.",
+              "(f) Create multiple accounts or fake accounts."
+            ]
+          },
+          {
+            "title": "4.2 Content Guidelines",
+            "body": "You are solely responsible for all content you post on the Platform. You agree that your content will not contain material that is copyrighted, trademarked, or otherwise violates intellectual property rights unless you own such rights or have permission from the rightful owner."
+          },
+          {
+            "title": "4.3 Independent Contractor Relationship",
+            "body": "Taskers are independent contractors and not employees of ConnectMyTask. The Platform does not employ any Taskers nor is it responsible for their actions or inactions."
+          }
+        ]
+      },
+      "payments": {
+        "title": "5. Payments and Fees",
+        "items": [
+          {
+            "title": "5.1 Service Fees",
+            "body": "ConnectMyTask charges service fees for the use of the Platform. These fees are clearly displayed before you confirm any transaction. Service fees may vary based on the category of service, location, and other factors."
+          },
+          {
+            "title": "5.2 Payment Processing",
+            "body": "Payments are processed securely through our third-party payment processor. You agree to pay all fees and charges associated with the tasks you book. All payments must be made through the Platform unless otherwise agreed in writing by ConnectMyTask."
+          },
+          {
+            "title": "5.3 Cancellation and Refunds",
+            "body": "Cancellation policies vary by service type. Customers may be charged a cancellation fee if they cancel within the specified cancellation window. Refunds are processed according to our refund policy and at our sole discretion."
+          },
+          {
+            "title": "5.4 Disputes",
+            "body": "If you have a dispute regarding a charge, you must notify us within 30 days of the charge. We will work with you and the Tasker to resolve the dispute fairly."
+          }
+        ]
+      },
+      "verification": {
+        "title": "6. Tasker Verification and Background Checks",
+        "body": "We perform identity verification and background checks on Taskers to promote trust and safety. However, we do not guarantee the accuracy or completeness of such checks, nor do we warrant that all Taskers are trustworthy or qualified. You acknowledge that you use the services at your own risk."
+      },
+      "liability": {
+        "title": "7. Liability and Disclaimers",
+        "items": [
+          {
+            "title": "7.1 Platform Disclaimer",
+            "body": "The Platform is provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement.",
+            "uppercase": true
+          },
+          {
+            "title": "7.2 Limitation of Liability",
+            "body": "ConnectMyTask is not responsible for the conduct of any User or Tasker, whether online or offline. You use the service at your own risk. To the maximum extent permitted by the laws of Bangladesh, ConnectMyTask shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Platform."
+          },
+          {
+            "title": "7.3 Service Guarantee",
+            "body": "While we strive to facilitate quality connections, we do not guarantee the quality, safety, or legality of services provided by Taskers. We do not guarantee the ability of Customers to pay for services."
+          },
+          {
+            "title": "7.4 Insurance",
+            "body": "Taskers are advised to maintain appropriate insurance for their services. ConnectMyTask may provide limited liability coverage for certain tasks; such coverage has exclusions and limitations as detailed in our insurance policy documentation."
+          }
+        ]
+      },
+      "ip": {
+        "title": "8. Intellectual Property",
+        "body": "All content on the Platform, including but not limited to text, graphics, logos, images, software, and data compilations, is the property of ConnectMyTask or its content suppliers and is protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works of our content without our express written permission."
+      },
+      "privacy": {
+        "title": "9. Privacy and Data Protection",
+        "body": "Your use of the Platform is subject to our Privacy Policy, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand how we collect, use, and share your personal information in compliance with applicable data protection laws in Bangladesh."
+      },
+      "termination": {
+        "title": "10. Termination",
+        "items": [
+          {
+            "title": "10.1 Termination by Us",
+            "body": "We reserve the right to terminate or suspend your account and access to the Platform at our sole discretion, without notice, for conduct that we believe violates these Terms, is harmful to other users, us, or third parties, or for any other reason."
+          },
+          {
+            "title": "10.2 Effect of Termination",
+            "body": "Upon termination, your right to use the Platform will immediately cease. All provisions of these Terms that by their nature should survive termination shall survive, including ownership provisions, warranty disclaimers, and limitations of liability."
+          },
+          {
+            "title": "10.3 Termination by You",
+            "body": "You may terminate your account at any time by contacting our support team. You will remain liable for any fees or charges incurred prior to termination."
+          }
+        ]
+      },
+      "indemnification": {
+        "title": "11. Indemnification",
+        "body": "You agree to indemnify, defend, and hold harmless ConnectMyTask and its officers, directors, employees, contractors, agents, licensors, and suppliers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable legal fees) arising from your violation of these Terms or your use of the Platform."
+      },
+      "dispute": {
+        "title": "12. Dispute Resolution and Arbitration",
+        "items": [
+          {
+            "title": "12.1 Informal Resolution",
+            "body": "In the event of any controversy or claim relating to these Terms, the parties will first consult and negotiate in good faith to reach a satisfactory solution."
+          },
+          {
+            "title": "12.2 Binding Arbitration",
+            "body": "If a settlement is not reached within 30 days, any unresolved controversy or claim shall be settled by binding arbitration in accordance with the rules of the Bangladesh International Arbitration Centre (BIAC) or such other arbitration body as may be applicable in Bangladesh. The arbitration shall be conducted in Dhaka, Bangladesh."
+          },
+          {
+            "title": "12.3 Class Action Waiver",
+            "body": "You agree that any arbitration or proceeding shall be limited to disputes between you and ConnectMyTask individually. You waive any right to participate in a class action lawsuit or class-wide arbitration."
+          }
+        ]
+      },
+      "governing": {
+        "title": "13. Governing Law",
+        "body": "These Terms shall be governed by and construed in accordance with the laws of the People's Republic of Bangladesh, without regard to its conflict of law provisions. You agree to submit to the personal and exclusive jurisdiction of the courts located in Dhaka, Bangladesh."
+      },
+      "changes": {
+        "title": "14. Changes to Terms",
+        "body": "We reserve the right to modify these Terms at any time. We will notify you of material changes by posting the new Terms on the Platform and updating the \"Last updated\" date. Your continued use of the Platform after such changes constitutes acceptance of the new Terms."
+      },
+      "misc": {
+        "title": "15. Miscellaneous",
+        "items": [
+          {
+            "title": "15.1 Entire Agreement",
+            "body": "These Terms constitute the entire agreement between you and ConnectMyTask regarding the use of the Platform and supersede all prior agreements and understandings."
+          },
+          {
+            "title": "15.2 Severability",
+            "body": "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that these Terms shall otherwise remain in full force and effect."
+          },
+          {
+            "title": "15.3 Waiver",
+            "body": "No waiver of any term shall be deemed a further or continuing waiver of such term or any other term. Our failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision."
+          },
+          {
+            "title": "15.4 Assignment",
+            "body": "You may not assign or transfer these Terms or your rights hereunder, in whole or in part, without our prior written consent. We may assign these Terms at any time without notice."
+          }
+        ]
+      },
+      "contact": {
+        "title": "16. Contact Information",
+        "body": "If you have any questions about these Terms, please contact us at: legal@connectmytask.com or ConnectMyTask Legal Department, Gulshan 1, Dhaka 1212, Bangladesh."
+      }
+    },
+    "bottom": {
+      "prompt": "Have questions about our Terms of Service?",
+      "privacyLink": "Privacy Policy",
+      "contactLink": "Contact Legal Team"
+    }
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "lastUpdatedLabel": "Last updated: {{date}}"
+    },
+    "principles": {
+      "title": "Our Privacy Principles",
+      "subtitle": "We are committed to protecting your privacy and being transparent about our data practices.",
+      "items": [
+        {
+          "title": "Transparency",
+          "description": "We're open about what data we collect and how we use it"
+        },
+        {
+          "title": "Security",
+          "description": "Your data is protected with industry-leading security measures"
+        },
+        {
+          "title": "Control",
+          "description": "You have control over your personal information"
+        },
+        {
+          "title": "Privacy",
+          "description": "We never sell your personal data to third parties"
+        }
+      ]
+    },
+    "sections": {
+      "infoCollect": {
+        "title": "1. Information We Collect",
+        "sub1": {
+          "title": "1.1 Information You Provide",
+          "bullets": [
+            {
+              "label": "Account Information",
+              "text": "Name, email address, phone number, password, and profile photo."
+            },
+            {
+              "label": "Profile Information",
+              "text": "Bio, skills, certifications, work history (for Taskers)."
+            },
+            {
+              "label": "Payment Information",
+              "text": "Credit/debit card details, billing address, and payment history."
+            },
+            {
+              "label": "Task Information",
+              "text": "Task descriptions, locations, photos, and related communications."
+            },
+            {
+              "label": "Identity Verification",
+              "text": "Government-issued ID and background check information (for Taskers)."
+            },
+            {
+              "label": "Communications",
+              "text": "Messages sent through our platform and customer support inquiries."
+            }
+          ]
+        },
+        "sub2": {
+          "title": "1.2 Information We Collect Automatically",
+          "bullets": [
+            {
+              "label": "Device Information",
+              "text": "IP address, browser type, operating system, and device identifiers."
+            },
+            {
+              "label": "Usage Data",
+              "text": "Pages visited, features used, time spent on the platform, and clicks."
+            },
+            {
+              "label": "Location Data",
+              "text": "Approximate or precise location (with your permission)."
+            },
+            {
+              "label": "Cookies and Similar Technologies",
+              "text": "As described in our Cookie Policy."
+            }
+          ]
+        },
+        "sub3": {
+          "title": "1.3 Information From Third Parties",
+          "bullets": [
+            "Background check providers (for Tasker verification).",
+            "Payment processors.",
+            "Social media platforms (if you choose to connect your account).",
+            "Analytics and marketing providers.",
+            "Public databases and records."
+          ]
+        }
+      },
+      "useInfo": {
+        "title": "2. How We Use Your Information",
+        "sub1": {
+          "title": "2.1 To Provide Our Services",
+          "bullets": [
+            "Create and manage your account.",
+            "Match Customers with appropriate Taskers.",
+            "Process payments and prevent fraud.",
+            "Facilitate communication between users.",
+            "Provide customer support and respond to requests.",
+            "Send service-related notifications."
+          ]
+        },
+        "sub2": {
+          "title": "2.2 To Improve and Develop Our Platform",
+          "bullets": [
+            "Analyse usage patterns and trends.",
+            "Develop new features and services.",
+            "Conduct research, testing, and troubleshooting.",
+            "Improve user experience and interface."
+          ]
+        },
+        "sub3": {
+          "title": "2.3 For Safety and Security",
+          "bullets": [
+            "Verify user identities.",
+            "Conduct background checks on Taskers.",
+            "Detect and prevent fraud, spam, and abuse.",
+            "Enforce our Terms of Service and other policies.",
+            "Protect our legal rights and comply with obligations."
+          ]
+        },
+        "sub4": {
+          "title": "2.4 For Marketing and Communications",
+          "bullets": [
+            "Send promotional emails and in-app messages (you can opt out).",
+            "Personalise your experience and show relevant content.",
+            "Conduct surveys and collect feedback."
+          ]
+        }
+      },
+      "shareInfo": {
+        "title": "3. How We Share Your Information",
+        "items": [
+          {
+            "title": "3.1 With Other Users",
+            "body": "When you book or offer a task, we share relevant information with the other party, including name, photo, ratings, reviews, and contact information necessary to complete the task."
+          },
+          {
+            "title": "3.2 With Service Providers",
+            "body": "We share information with third-party service providers who help us operate our platform, including payment processors, cloud hosting providers, analytics providers, customer support tools, and marketing platforms."
+          },
+          {
+            "title": "3.3 For Legal Reasons",
+            "body": "We may disclose your information if required by law, court order, or government request, or if we believe disclosure is necessary to protect our rights, your safety, or the safety of others."
+          },
+          {
+            "title": "3.4 Business Transfers",
+            "body": "If ConnectMyTask is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you before your information becomes subject to a different privacy policy."
+          },
+          {
+            "title": "3.5 With Your Consent",
+            "body": "We may share your information with third parties when you explicitly consent to such sharing."
+          }
+        ]
+      },
+      "rights": {
+        "title": "4. Your Privacy Rights and Choices",
+        "items": [
+          {
+            "title": "4.1 Access and Portability",
+            "body": "You have the right to access the personal information we hold about you and to receive a copy of your data in a portable format, subject to applicable law in Bangladesh."
+          },
+          {
+            "title": "4.2 Correction and Update",
+            "body": "You can update your account information at any time through your profile settings. If you notice any inaccuracies, please contact us so we can correct them."
+          },
+          {
+            "title": "4.3 Deletion",
+            "body": "You may request deletion of your account and personal information. We may retain certain information as required by law or for legitimate business purposes."
+          },
+          {
+            "title": "4.4 Marketing Opt-Out",
+            "body": "You can opt out of marketing emails by clicking the unsubscribe link in any promotional email or by adjusting your notification preferences in your account settings."
+          },
+          {
+            "title": "4.5 Cookie Controls",
+            "body": "You can control cookies through your browser settings. Note that disabling certain cookies may affect platform functionality."
+          },
+          {
+            "title": "4.6 Location Data",
+            "body": "You can enable or disable location services through your device settings. Some features may not function properly without location access."
+          }
+        ]
+      },
+      "security": {
+        "title": "5. Data Security",
+        "items": [
+          {
+            "title": "5.1 Security Measures",
+            "body": "We implement industry-standard security measures to protect your personal information, including encryption, secure servers, firewalls, and access controls. Payment information is processed using PCI-DSS compliant payment processors."
+          },
+          {
+            "title": "5.2 Data Retention",
+            "body": "We retain your personal information for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce our agreements. After account deletion, we may retain limited information in anonymised or aggregated form."
+          },
+          {
+            "title": "5.3 Security Limitations",
+            "body": "While we strive to protect your information, no security system is impenetrable. You are responsible for maintaining the confidentiality of your account credentials."
+          }
+        ]
+      },
+      "children": {
+        "title": "6. Children's Privacy",
+        "body": "Our platform is not intended for children under 18 years of age. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately so we can take appropriate action."
+      },
+      "transfers": {
+        "title": "7. International Data Transfers",
+        "body": "Your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws. Where required, we take appropriate safeguards to protect your information in line with the laws of Bangladesh."
+      },
+      "cookies": {
+        "title": "8. Cookies and Tracking Technologies",
+        "sub1": {
+          "title": "8.1 Types of Cookies We Use",
+          "bullets": [
+            "Essential cookies: Required for basic platform functionality.",
+            "Performance cookies: Help us understand how you use our platform.",
+            "Functionality cookies: Remember your preferences and settings.",
+            "Advertising cookies: Deliver relevant advertisements."
+          ]
+        },
+        "sub2": {
+          "title": "8.2 Third-Party Tracking",
+          "body": "We use third-party analytics and advertising services that may collect information about your online activities over time and across different websites."
+        }
+      },
+      "localRights": {
+        "title": "9. Your Rights Under Local Laws",
+        "body": "Depending on where you live, you may have additional rights under local data protection laws. We will honour these rights in accordance with the laws of the People's Republic of Bangladesh and any other applicable regulations."
+      },
+      "changes": {
+        "title": "10. Changes to This Privacy Policy",
+        "body": "We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, regulatory, or operational reasons. We will notify you of material changes by posting the updated policy on our platform and updating the \"Last updated\" date at the top of this page. Your continued use of the platform after changes constitutes acceptance of the updated policy."
+      },
+      "contact": {
+        "title": "11. Contact Us",
+        "body": "If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:",
+        "details": {
+          "emailLabel": "Email:",
+          "addressLabel": "Address:",
+          "phoneLabel": "Phone:",
+          "email": "privacy@connectmytask.com",
+          "address": "ConnectMyTask Privacy Team, Gulshan 1, Dhaka 1212, Bangladesh",
+          "phone": "+880 1XXX-000000"
+        }
+      },
+      "bottom": {
+        "prompt": "Questions about your privacy?",
+        "termsLink": "Terms of Service →",
+        "contactLink": "Contact Privacy Team →"
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How it Works",
+    "pricing": "Pricing",
+    "about": "About",
+    "postTask": "Post a Task",
+    "browseProviders": "Browse Providers"
+  },
+  "header": {
+    "userFallback": "User",
+    "auth": {
+      "login": "Log In",
+      "signup": "Sign Up"
+    },
+    "menu": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "postTask": "Post a Task",
+      "messages": "Messages",
+      "wallet": "Wallet",
+      "adminPanel": "Admin panel",
+      "fraudDashboard": "Fraud Dashboard",
+      "logout": "Log out"
+    }
+  },
+  "adminPanel": {
+    "title": "Admin panel",
+    "subtitle": "Manage users, providers, and tasks via the ConnectMyTask API.",
+    "fraudDashboardCta": "Fraud & payouts dashboard →",
+    "loading": "Loading…",
+    "tabs": {
+      "users": "Users",
+      "providers": "Providers",
+      "tasks": "Tasks",
+      "flaggedAccounts": "Flagged accounts"
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "verified": "Verified",
+      "actions": "Actions"
+    },
+    "actions": {
+      "verify": "Verify",
+      "delete": "Delete"
+    },
+    "providers": {
+      "skills": "Skills"
+    },
+    "flagged": {
+      "flagged": "Flagged",
+      "noReason": "no reason",
+      "devices": "Devices"
+    },
+    "common": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "confirm": {
+      "deleteUser": "Delete this user?",
+      "deleteTask": "Delete this task?"
+    },
+    "errors": {
+      "loadData": "Failed to load admin data"
+    }
+  },
+  "adminFraud": {
+    "title": "Fraud & Abuse Monitoring",
+    "subtitle": "Review suspicious login attempts, reCAPTCHA failures, and other security signals in real time.",
+    "notAuthorizedDesc": "This area is restricted to admin users. If you believe this is a mistake, contact the site owner.",
+    "tabs": {
+      "fraud": "Fraud Events",
+      "reviews": "Review Moderation",
+      "payouts": "Pending Approvals"
+    },
+    "cards": {
+      "totalEvents": "Total events",
+      "newUnreviewed": "New / Unreviewed",
+      "highSeverity": "High severity",
+      "uniqueIps": "Unique IPs (page)"
+    },
+    "filters": {
+      "all": "All",
+      "allStatuses": "All statuses",
+      "allTypes": "All event types",
+      "searchPlaceholder": "Search email or IP"
+    },
+    "table": {
+      "time": "Time",
+      "type": "Type",
+      "userIp": "User / IP",
+      "severity": "Severity",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "new": "New",
+      "reviewed": "Reviewed",
+      "ignored": "Ignored",
+      "escalated": "Escalated",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "severity": {
+      "low": "low"
+    },
+    "actions": {
+      "markReviewed": "Mark reviewed",
+      "ignore": "Ignore",
+      "escalate": "Escalate",
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "details": {
+      "title": "Event details",
+      "selectPrompt": "Select a row to inspect details."
+    },
+    "reviews": {
+      "title": "Review Moderation",
+      "subtitle": "Moderate user-submitted provider reviews.",
+      "reviewer": "Reviewer",
+      "provider": "Provider",
+      "overall": "Overall",
+      "empty": "No reviews in this moderation filter."
+    },
+    "payouts": {
+      "title": "Pending Payout Approvals",
+      "subtitle": "Review payout request, provider, requester, and task completion context before approving.",
+      "loading": "Loading pending payouts...",
+      "empty": "No pending approvals.",
+      "untitledTask": "Untitled task",
+      "taskDescription": "Task Description",
+      "noDescription": "No description provided.",
+      "providerContext": "Provider Completion Context",
+      "bidComment": "Bid Comment",
+      "bidEta": "Bid ETA",
+      "customerReview": "Customer Review",
+      "noProviderComment": "No provider comment found.",
+      "noReviewComment": "No review comment yet.",
+      "completionImages": "Completion Images",
+      "noImages": "No images attached to this job.",
+      "taskImageAlt": "Task {{index}}",
+      "taskComments": "Task Comments",
+      "noComments": "No comments on this task.",
+      "rejectReasonPlaceholder": "Reason for rejection (optional)",
+      "rejectDefaultReason": "Cannot verify destination details",
+      "fields": {
+        "payout": "Payout",
+        "provider": "Provider",
+        "requester": "Requester",
+        "net": "Net"
+      }
+    },
+    "fallback": {
+      "reviewer": "Unknown reviewer",
+      "provider": "Unknown provider",
+      "guestUser": "Guest / unknown user"
+    },
+    "moderation": {
+      "fallbackNote": "Approved via moderation queue fallback"
+    },
+    "loadingEvents": "Loading events...",
+    "emptyEvents": "No suspicious events found for the current filters.",
+    "errors": {
+      "loadData": "Failed to load data",
+      "loadReviewQueue": "Failed to load review moderation queue",
+      "loadPendingPayouts": "Failed to load pending payouts",
+      "updateStatus": "Failed to update status",
+      "updateReviewStatus": "Failed to update review moderation status",
+      "approvePayout": "Failed to approve payout",
+      "rejectPayout": "Failed to reject payout"
+    }
+  },
+  "footer": {
+    "tagline": "A simple way to post tasks, compare bids, and get work done with trusted providers.",
+    "sections": {
+      "platform": "Platform",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "pricing": "Pricing",
+      "postTask": "Post a Task",
+      "browseProviders": "Browse Providers",
+      "trustSafety": "Trust & Safety",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "copyright": "© 2023 ConnectMyTask. All rights reserved."
+  },
+  "paymentReturn": {
+    "default": {
+      "title": "Checking payment",
+      "body": "We are confirming your payment status."
+    },
+    "checking": {
+      "title": "Checking payment",
+      "body": "We are confirming your payment status."
+    },
+    "processing": {
+      "title": "Payment is processing",
+      "body": "We are still confirming your payment. This page will update shortly."
+    },
+    "success": {
+      "title": "Payment successful",
+      "body": "Your payment has been confirmed. Thank you!"
+    },
+    "failed": {
+      "title": "Payment failed",
+      "body": "Your payment could not be confirmed. Please try again or contact support."
+    },
+    "cancelled": {
+      "title": "Payment cancelled",
+      "body": "You cancelled the payment. You can try again anytime."
+    },
+    "refunded": {
+      "title": "Payment refunded",
+      "body": "This payment has been refunded. If you have questions, contact support."
+    },
+    "missing": {
+      "title": "Missing transaction",
+      "body": "We couldn't find a payment to verify. Please start the payment again."
+    },
+    "error": {
+      "title": "Verification error",
+      "body": "We could not verify your payment right now. Please try again."
+    },
+    "processingHint": "This can take a minute. We will keep checking.",
+    "transactionLabel": "Transaction:",
+    "backHome": "Back to Home",
+    "viewDashboard": "View Dashboard",
+    "retry": "Retry Payment",
+    "supportPrefix": "Need help?",
+    "supportLink": "Contact support"
+  },
+  "timeAgo": {
+    "justNow": "Just now",
+    "minutes": "{{count}}m ago",
+    "hours": "{{count}}h ago",
+    "days": "{{count}}d ago"
+  },
+  "userDashboard": {
+    "fallbackName": "there",
+    "loading": "Loading…",
+    "welcome": "Welcome back, {{name}} 👋",
+    "subtitle": "Here's an overview of your tasks and activity.",
+    "stats": {
+      "totalTasks": "Total Tasks",
+      "active": "Active",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "totalBids": "Total Bids"
+    },
+    "actions": {
+      "postTask": "Post a New Task",
+      "browseProviders": "Browse Providers"
+    },
+    "tasks": {
+      "title": "My Tasks",
+      "count": "{{count}} task",
+      "count_plural": "{{count}} tasks",
+      "searchPlaceholder": "Search tasks…",
+      "loading": "Loading tasks…",
+      "emptyTitle": "No tasks yet",
+      "emptySubtitle": "Post your first task and get matched with providers.",
+      "noMatchTitle": "No matching tasks",
+      "noMatchSubtitle": "Try adjusting your search or filter."
+    },
+    "status": {
+      "all": "All Status",
+      "active": "Active",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "urgency": {
+      "urgent": "Urgent",
+      "soon": "Soon"
+    },
+    "meta": {
+      "due": "Due {{date}}",
+      "posted": "Posted {{date}}",
+      "assigned": "Assigned to {{name}} — {{amount}}"
+    },
+    "bids": {
+      "empty": "No bids yet. Providers will see your task and submit their bids.",
+      "title": "Bids ({{count}})",
+      "countInline": "{{count}} Bid",
+      "countInline_plural": "{{count}} Bids",
+      "timeline": "Timeline: {{value}}",
+      "accept": "Accept Bid",
+      "accepting": "Accepting…",
+      "accepted": "Accepted"
+    },
+    "payment": {
+      "invalidAmount": "Invalid payment amount.",
+      "initiateFailed": "Payment initiation failed.",
+      "starting": "Starting…",
+      "pay": "Pay {{amount}}"
+    }
+  },
+  "providerDashboard": {
+    "fallbackName": "Provider",
+    "loading": "Loading…",
+    "title": "Provider Dashboard",
+    "subtitle": "Welcome back, {{name}}. Browse available tasks and manage your bids.",
+    "dismiss": "Dismiss",
+    "bidToast": "Bid submitted for \"{{title}}\"! The client will be notified.",
+    "stats": {
+      "available": "Available Tasks",
+      "bids": "My Bids",
+      "jobs": "My Jobs",
+      "urgent": "Urgent Tasks"
+    },
+    "tabs": {
+      "available": "Available Tasks ({{count}})",
+      "bids": "My Bids ({{count}})",
+      "jobs": "My Jobs ({{count}})"
+    },
+    "searchPlaceholder": "Search tasks by title, category, or poster…",
+    "categories": {
+      "all": "All"
+    },
+    "resultsCount": "{{count}} task found",
+    "resultsCount_plural": "{{count}} tasks found",
+    "loadingTasks": "Loading tasks…",
+    "empty": {
+      "jobsTitle": "No active jobs yet",
+      "jobsSubtitle": "Once a client accepts your bid, the task will appear here.",
+      "availableTitle": "No tasks available right now",
+      "availableSubtitle": "Check back soon — new tasks are posted all the time.",
+      "bidsTitle": "You haven't bid on any tasks yet",
+      "bidsSubtitle": "Browse available tasks and submit your first bid."
+    },
+    "actions": {
+      "browse": "Browse Available Tasks",
+      "markComplete": "Mark as Complete",
+      "submitBid": "Submit Bid →"
+    },
+    "status": {
+      "active": "Active",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "urgency": {
+      "urgent": "Urgent",
+      "soon": "Soon"
+    },
+    "bidsCount": "{{count}} bid",
+    "bidsCount_plural": "{{count}} bids",
+    "bidSubmitted": "Bid Submitted",
+    "meta": {
+      "due": "Due {{date}}",
+      "postedBy": "Posted by",
+      "userFallback": "User",
+      "earned": "Earned",
+      "client": "Client",
+      "agreed": "Agreed",
+      "timeline": "Timeline: {{value}}",
+      "yourBid": "Your bid"
+    },
+    "bidModal": {
+      "title": "Submit Your Bid",
+      "subtitle": "for \"{{title}}\"",
+      "clientBudget": "Client's budget",
+      "notSpecified": "Not specified",
+      "dueDate": "Due date",
+      "bidAmount": "Your Bid Amount ({{currency}})",
+      "bidPlaceholder": "0",
+      "bidNote": "Bid will be submitted in {{currency}}.",
+      "timelineLabel": "Estimated Timeline",
+      "timelinePlaceholder": "e.g., 2-3 days, 1 week",
+      "messageLabel": "Message to Client",
+      "messagePlaceholder": "Introduce yourself and explain why you're a good fit for this task...",
+      "submitting": "Submitting…",
+      "submit": "Submit Bid",
+      "cancel": "Cancel",
+      "errorAmount": "Enter a valid bid amount",
+      "errorMessage": "Add a message to the task poster",
+      "errorSubmit": "Failed to submit bid"
+    }
+  },
+  "authPage": {
+    "login": {
+      "badge": "Welcome back! 👋",
+      "title": "Pick up right where you left off",
+      "subtitle": "Access your dashboard, manage tasks, and connect with service providers all in one place.",
+      "features": {
+        "security": "Bank-level security",
+        "fast": "Lightning fast setup"
+      },
+      "testimonial": {
+        "quote": "\"ConnectMyTask has completely transformed how I manage home projects. The platform is intuitive and the providers are top-notch!\"",
+        "author": "— Sarah M., Homeowner"
+      }
+    },
+    "signup": {
+      "badge": "Trusted by 100,000+ users worldwide",
+      "title": "Connect with trusted service providers for any task",
+      "subtitle": "Join the platform that's revolutionizing how people get things done. From home services to professional tasks, we've got you covered.",
+      "bullets": {
+        "postTasks": "Post tasks and receive competitive bids from verified providers",
+        "realtime": "Real-time chat and secure payment processing",
+        "ratings": "Transparent ratings and reviews for every provider"
+      },
+      "stats": {
+        "activeUsers": "Active Users",
+        "verifiedProviders": "Verified Providers",
+        "averageRating": "Average Rating"
+      }
+    },
+    "card": {
+      "signupTitle": "Get started free",
+      "signupSubtitle": "No credit card required. Start in minutes.",
+      "loginTitle": "Welcome back",
+      "loginSubtitle": "Log in to your ConnectMyTask account",
+      "orLabel": "OR"
+    },
+    "support": {
+      "text": "Need help?",
+      "link": "Contact support"
+    }
+  },
+  "authForm": {
+    "login": {
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot password?",
+      "rememberMe": "Keep me logged in",
+      "submit": "Log in to your account →",
+      "submitLoading": "Signing in…",
+      "signupPrompt": "Don't have an account?",
+      "signupAction": "Sign up free",
+      "errorEmail": "Enter a valid email",
+      "errorPassword": "Password must be at least 6 characters",
+      "errorServer": "Unable to login"
+    },
+    "signup": {
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Min 8 characters",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "roleUser": "I need tasks done",
+      "roleProvider": "I'm a provider",
+      "termsPrefix": "I agree to ConnectMyTask's",
+      "termsService": "Terms of Service",
+      "termsAnd": "and",
+      "termsPrivacy": "Privacy Policy",
+      "createAccount": "Create your account",
+      "createAccountLoading": "Creating account…",
+      "alreadyHave": "Already have an account?",
+      "loginAction": "Log in",
+      "errorFirstName": "Enter your first name",
+      "errorLastName": "Enter your last name",
+      "errorEmail": "Enter a valid email",
+      "errorPassword": "Must be at least 8 characters",
+      "errorConfirm": "Passwords do not match",
+      "errorTerms": "You must agree to the terms",
+      "errorEmailExists": "An account with this email already exists",
+      "errorWeakPassword": "Password is too weak. Use at least 6 characters.",
+      "errorInvalidEmail": "Please enter a valid email address",
+      "errorCreate": "Unable to create account"
+    }
+  },
+  "authSocial": {
+    "googleShort": "Google",
+    "facebookShort": "Facebook",
+    "googleContinue": "Continue with Google",
+    "facebookContinue": "Continue with Facebook",
+    "googleSignup": "Sign up with Google",
+    "facebookSignup": "Sign up with Facebook",
+    "googleLogin": "Log in with Google",
+    "facebookLogin": "Log in with Facebook",
+    "signingIn": "Signing in…"
+  },
+  "messages": {
+    "title": "Messages",
+    "loading": "Loading…",
+    "emptyConversations": "No conversations yet.",
+    "selectPrompt": "Select a conversation or message someone from their profile.",
+    "inputPlaceholder": "Type a message…",
+    "send": "Send",
+    "fallback": {
+      "image": "Image",
+      "chat": "Chat"
+    },
+    "errors": {
+      "loadConversations": "Failed to load conversations",
+      "loadMessages": "Failed to load messages",
+      "sendMessage": "Failed to send message"
+    }
+  },
+  "currency": {
+    "options": {
+      "USD": "USD (US Dollar)",
+      "BDT": "BDT (Bangladeshi Taka)",
+      "INR": "INR (Indian Rupee)",
+      "PKR": "PKR (Pakistani Rupee)"
+    }
+  }
+}

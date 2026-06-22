@@ -1,0 +1,33 @@
+meta {
+  name: Register
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseurl}}/api/auth/register
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "name": "Pattarapol Tantechasa",
+    "email": "froyplus@hotmail.co.th",
+    "password": "folk123",
+    "role": "user",
+    "location": {
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093
+    }
+  }
+}
+
+settings {
+  encodeUrl: true
+}

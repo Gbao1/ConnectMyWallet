@@ -1,0 +1,52 @@
+meta {
+  name: Login
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseurl}}/api/auth/login
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "email": "pattarapol@gmail.com",
+    "password": "folk123",
+    "fcmToken": "sample_fcm_token_for_notifications"
+  }
+}
+
+script:post-response {
+  // Save token and user ID for subsequent requests
+  if (res.getStatus() === 200) {
+    const responseBody = res.getBody();
+    bru.setVar("authToken", responseBody.token);
+    bru.setVar("userId", responseBody.user.id);
+    console.log("Login successful! Token and userId saved.");
+  } else {
+    console.log("Login failed:", res.getBody());
+  }
+}
+
+tests {
+  test("should return 200 status", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("should return user data and token", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('token');
+    expect(body).to.have.property('user');
+    expect(body.user).to.have.property('email', 'folk@example.com');
+  });
+}
+
+settings {
+  encodeUrl: true
+}

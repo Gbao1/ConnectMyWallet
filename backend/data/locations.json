@@ -1,0 +1,14 @@
+{
+  "New South Wales": {
+    "Sydney": ["Parramatta", "Bondi", "Manly", "Chatswood"],
+    "Newcastle": ["Cessnock", "Maitland", "Lake Macquarie"]
+  },
+  "Victoria": {
+    "Melbourne": ["Carlton", "Fitzroy", "Brunswick"],
+    "Geelong": ["Lara", "Torquay"]
+  },
+  "Queensland": {
+    "Brisbane": ["Fortitude Valley", "South Bank", "Paddington"],
+    "Gold Coast": ["Surfers Paradise", "Broadbeach"]
+  }
+}

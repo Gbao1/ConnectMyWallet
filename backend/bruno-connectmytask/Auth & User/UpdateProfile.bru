@@ -1,0 +1,55 @@
+meta {
+  name: Update Profile
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{baseurl}}/api/auth/profile/{{userId}}
+  body: multipartForm
+  auth: inherit
+}
+
+headers {
+  Authorization: {{authToken}}
+}
+
+body:multipart-form {
+  name: Folk Updated via FormData
+  location: {"country":"Australia","state":"NSW","city":"Sydney","lat":-33.8688,"lng":151.2093}
+}
+
+script:pre-request {
+  // Check if we have the required variables
+  if (!bru.getVar("authToken")) {
+    throw new Error("No auth token found. Please run Login request first.");
+  }
+  if (!bru.getVar("userId")) {
+    throw new Error("No userId found. Please run Login request first.");
+  }
+}
+
+tests {
+  test("should return 200 status", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("should return updated user data", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('user');
+    expect(body.user).to.have.property('name', 'Folk Updated via FormData');
+    expect(body.user).to.have.property('location');
+    expect(body.user.location).to.have.property('state', 'NSW');
+    expect(body.user.location).to.have.property('city', 'Sydney');
+  });
+  
+  test("should maintain other user properties", function() {
+    const body = res.getBody();
+    expect(body.user).to.have.property('email', 'folk@example.com');
+    expect(body.user).to.have.property('role', 'user');
+  });
+}
+
+settings {
+  encodeUrl: true
+}
